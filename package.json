@@ -1,0 +1,20 @@
+{
+  "name": "timwk-blog",
+  "version": "0.0.1",
+  "description": "timwk 前端博客",
+  "main": "index.js",
+  "authors": {
+    "name": "tim",
+    "email": "timwk@foxmail.com"
+  },
+  "repository": "/timwk blog",
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.0.0",
+    "@vuepress/theme-blog": "^1.0.0"
+  }
+}
